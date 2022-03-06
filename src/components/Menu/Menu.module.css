@@ -1,0 +1,56 @@
+.menu {
+   margin-top: 1.3rem;
+}
+
+.menuItem {
+  display: flex;
+  padding: 0.5rem 0.7rem;
+}
+
+.menuIcon {
+  flex: 1;
+}
+
+.menuText {
+  flex: 5;
+  padding-top: 0.17rem;
+}
+
+.menuText span:hover {
+  color: var(--blue);
+}
+
+.menuText span {
+  color: var(--grey);
+}
+
+.menu .other, .tagsTitle {
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+}
+
+.socialContainer {
+  margin: 1.5rem 0;
+}
+
+.social {
+  margin-right: 1.5rem;
+}
+
+.tagContaineer {
+  overflow: scroll;
+  height: 15rem;
+  width: 15rem;
+}
+
+.tag {
+  cursor: pointer;
+  padding: 0.8rem 0.7rem;
+}
+
+.tag:hover, .menuItem:hover {
+  border-radius: 6px;
+  text-decoration: underline;
+  background-color: var(--light-blue);
+  color: var(--blue);
+}

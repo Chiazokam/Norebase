@@ -8,7 +8,7 @@ type ButtonProps = {
 
 const Button = ({ text, styles }: ButtonProps) => {
   return (
-    <button className={`${styles}`}>{text}</button>
+    <button className={`${buttonStyles.button} ${styles}`}>{text}</button>
   )
 }
 

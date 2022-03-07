@@ -49,3 +49,42 @@
   color: var(--blue);
   text-decoration: underline;
 }
+
+.stickerNotif {
+  border: 1px solid var(--light-grey);
+  box-shadow: 0 0 0 1px rgba(var(--light-grey), 0.05);
+  margin-top: 2rem;
+  border-radius: 6px;
+  padding: 1.5rem 1rem 0;
+  width: 15rem;
+}
+
+.stickerNotif img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.stickerNotif a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.openSourceNotif {
+  border: 1px solid var(--light-grey);
+  box-shadow: 0 0 0 1px rgba(var(--light-grey), 0.05);
+  margin-top: 1rem;
+  border-radius: 6px;
+  padding: 0.3rem 1rem 0;
+  width: 15rem;
+  line-height: 1.5rem;
+}
+
+.openSourceNotif a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.openSourceNotif li a {
+  color: var(--blue);
+  text-decoration: none;
+}

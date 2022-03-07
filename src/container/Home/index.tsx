@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css'
-import LeftPane from './LeftPane/LeftPane';
+import LeftPane from '../../components/LeftPane/LeftPane';
 
 const Home = () => {
   return (

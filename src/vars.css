@@ -10,7 +10,8 @@
   --red: #C12300;
   --background: #DADADA;
   --grey: #575757;
-  --blue: rgb(47, 58, 178);
+  --light-grey: rgb(23, 23, 23, 0.05);
+  --blue: #3B49DF;
   --light-blue: #EBECFC;
-  --background: #F5F5F5
+  --background: #F5F5F5;
 }
